@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MMAAA Hotel</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: purple;
+      background-color: white;
+
+
+    }
+
+    header {
+      background-color: white;
+      color: purple;
+      padding: 10px 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+    }
+
+    .logo h1 {
+      margin: 0;
+    }
+
+    .navbar {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    .navbar li {
+      margin-left: 20px;
+    }
+
+    .navbar li:first-child {
+      margin-left: 0;
+    }
+
+    .navbar li a {
+      text-decoration: none;
+      color: purple;
+      transition: color 0.3s;
+    }
+
+    .navbar li a:hover {
+      color: white; /* Change to your desired purple color */
+    }
+
+    main {
+      color: white;
+      padding: 40px;
+      text-align: center;
+      background-color: purple;
+    }
+
+
+
+    footer {
+      background-color: white;
+      color: purple;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    .image-slider {
+      position: relative;
+      overflow: hidden;
+      max-height: 400px;
+    }
+
+    .image-slider img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s;
+    }
+
+    /* Parallax effect */
+    .parallax {
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 500px;
+    }
+
+    /* Modern fonts */
+    h2, h3 {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-weight: bold;
+    }
+
+    /* Animated button */
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #666;
+    }
+
+    /* Testimonials section */
+    .testimonials {
+      text-align: center;
+    }
+
+    /* Social media icons */
+    .social-icons {
+      list-style: none;
+      padding: 0;
+    }
+
+    .social-icons li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+
+    .social-icons a {
+      color: #333;
+      text-decoration: none;
+      font-size: 24px;
+    }
+
+    /* Responsive Styles */
+
+    @media only screen and (max-width: 600px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .navbar {
+        margin-top: 20px;
+      }
+
+      .navbar li {
+        margin: 10px 0;
+      }
+
+      main {
+        padding: 20px;
+
+      }
+    /* Mobile-first approach */
+    @media only screen and (max-width: 600px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .navbar {
+        margin-top: 20px;
+      }
+
+      .navbar li {
+        margin: 10px 0;
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      .image-slider img {
+        height: 250px;
+      }
+
+      .parallax {
+        height: 300px;
+      }
+    }
+
+    /* Tablet and larger screens */
+    @media only screen and (min-width: 601px) {
+      .image-slider img {
+        height: 400px;
+      }
+
+      .parallax {
+        height: 500px;
+      }
+
+      /* Larger font for headings on bigger screens */
+      h2, h3 {
+        font-size: 36px;
+      }
+
+      /* Adjust the number of testimonials per row */
+      .testimonials {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+      }
+
+      .testimonial {
+        max-width: 350px;
+        margin: 10px;
+      }
+    }
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="container">
+        <div class="logo">
+          <h1>MMAAA Hotel</h1>
+        </div>
+        <ul class="navbar">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div id="home" class="parallax" style="background-image: url('https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2018/1/8/0/CI_HarrahsResortSouthernCalifornia_HarrahsResortSouthernCalifornia_PurpleHotels.jpg.rend.hgtvcom.966.725.suffix/1515435854601.jpeg');">
+        <h2>WELCOME TO THE MMAAA HOTEL</h2>
+        <br>
+
+
+    </div>
+
+      <div id="about">
+          <h2>About us:</h2>
+          <br>
+          <p>At Innovation Squad Hotel, we are dedicated to redefining the classic hotel experience and delivering unparalleled hospitality. Nestled in the heart of the city, our hotel offers a perfect blend of modern sophistication and timeless elegance. Whether you are traveling for business or leisure, our team of committed professionals is here to ensure your stay is nothing short of exceptional</p>
+          <h3>Accommodations</h3>
+          <p>Step into our well-appointed rooms and suites, designed to provide ultimate comfort and relaxation. Each room boasts contemporary furnishings, plush bedding, and state-of-the-art amenities to cater to your every need. Whether you choose a standard room or a luxurious suite, you can expect a restful stay in a setting that exudes refinement.</p>
+          <h3>Dining</h3>
+          <p>Indulge your senses in our diverse culinary offerings. The Innovation Squad Hotel features a range of dining options, from casual cafes to elegant restaurants. Our talented chefs skillfully prepare a variety of cuisines using the finest ingredients, ensuring a delightful dining experience for every palate.</p>
+          <h3>Facilities</h3>
+          <p>Our hotel offers an array of facilities to enhance your stay. Take a refreshing dip in the rooftop swimming pool, enjoy a revitalizing workout at the fully-equipped fitness center, or unwind with a soothing massage at our spa. For the business traveler, we offer well-equipped meeting and conference rooms, complemented by our efficient business services.</p>
+          <h3>Hospitality</h3>
+          <p>At the heart of our hotel is a commitment to exceptional hospitality. From the moment you step through our doors until your departure, our attentive staff will cater to your every need, ensuring a seamless and unforgettable stay.</p>
+          <br>
+          <p>Experience the charm of classic hospitality with a touch of innovation at Innovation Squad Hotel. Whether you're here for business or leisure, we promise an experience that will exceed your expectations and leave you with cherished memories. Book your stay with us and embark on an extraordinary journey of luxury and comfort.</p>
+      </div>
+      <div class="image-slider">
+      <!-- Add your images for the slider here -->
+      <img src='https://th.bing.com/th/id/R.42aec9f2c68201cdddb3e574ea8c55ce?rik=QRv3%2fbzbfLu87w&riu=http%3a%2f%2f4.bp.blogspot.com%2f-izevvGIxyE4%2fTjcLxJeSdvI%2fAAAAAAAAAbM%2fyMVvFKbxcu0%2fs1600%2fwhite_decorative_line.png&ehk=JwUTSBreuDUZLKwH9UxguNe64muIxdXrk58l0Z2Zv6Y%3d&risl=&pid=ImgRaw&r=0'>
+      </div>
+
+    <div class="parallax" style="background-image: url('https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2018/1/8/0/CI_HarrahsResortSouthernCalifornia_HarrahsResortSouthernCalifornia_PurpleHotels.jpg.rend.hgtvcom.966.725.suffix/1515435854601.jpeg');">
+       <div class="parallax-content">
+          <h2>Welcome to Our Luxurious Hotel</h2>
+          <p>Experience elegance and comfort at MMAAA Hotel, where luxury meets innovation.</p>
+          <a href="#about" class="button">Learn More</a>
+        </div>
+    </div>
+
+
+      <!-- Testimonials section -->
+      <div class="testimonials">
+        <h2>What Our Guests Say</h2>
+        <p>Read what our happy guests have to say about their stay at MMAAA Hotel.</p>
+
+        <div class="testimonial">
+          <blockquote>
+            "Absolutely amazing experience! The staff was incredibly friendly and accommodating. The room was
+            spacious and luxurious, and the views from the rooftop pool were breathtaking. I will definitely be
+            returning!"
+          </blockquote>
+          <cite>- John Doe</cite>
+        </div>
+
+        <div class="testimonial">
+          <blockquote>
+            "MMAAA Hotel exceeded all expectations. The attention to detail and personalized service
+            made our stay unforgettable. We loved every moment of our time here and can't wait to come back."
+          </blockquote>
+          <cite>- Jane Smith</cite>
+        </div>
+      </div>
+      <div id="contact">
+          <h2>Contact Us</h2>
+          <p>TIIDELAB</p>
+      </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 MMAAA Hotel. All rights reserved.</p>
+  </footer>
+</body>
+</html>
